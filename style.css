@@ -1,0 +1,80 @@
+/*Codigo geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*importantes*/
+
+body{
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #2AC6DB;
+}
+
+img{
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    font-size: 2rem;
+    color: #2A8EDB;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#container .discricao{
+    padding: 10px;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.bg a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    background: #2A8EDB;
+}
+
+a button  span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #fff;
+}
